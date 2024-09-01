@@ -1,3 +1,22 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Nebula's Gallery"
+theme = ['gallery']
+
+[params]
+  defaultTheme = "dark"
+  title = "My Gallery"
+  [params.author]
+    email = "nebula@neb.gay"
+    name = "Nebula"
+  [params.socialIcons]
+    github = "https://github.com/lyricalpaws/"
+    twitter = "https://bsky.app/profile/neb.gay"
+    email = "mailto:nebula@neb.gay"
+    website = "https://neb.gay"
+
+[menu]
+  [[menu.footer]]
+    name = "Find my main website here"
+    url = "https://neb.gay/"
+    weight = 3
